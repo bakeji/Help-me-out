@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Me Out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="logo-cls">
+            <img src="images/logo.png" alt="log">
+
+            <div class="cls-set-btn">
+                <button class="set-btn"><img src="images/setting.png" alt="setting"></button>
+                <button class="cls-btn"><img src="images/close-circle.png" alt=""></button>
+            </div>
+        </div>
+
+        <p class="p">This extension helps you record and share help videos with ease.</p>
+
+        <div class="cam">
+            <div>
+            <img src="images/video-camera.png" alt="camera">
+            <p>Camera</p>
+            </div>
+              <input  type="checkbox" id="toggle" />
+   <label for="toggle"></label>
+           
+        </div>
+
+        <div class="mic">
+              <div>
+            <img src="images/microphone.png" alt="mic">
+            <p>Audio</p>
+            </div>
+         <input type="checkbox" id="mic" />
+            <label for="mic"></label>
+        </div>
+
+        <button id="strt-rcd">Start Recording</button>
+        <button id="stp-rcd"> Stop Recording</button>
+    </main>
+    <script src="js/popup.js"></script>
+</body>
+</html>
