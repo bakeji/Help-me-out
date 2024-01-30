@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+.app {
+  width: 100%;
+}
+header {
+  display: flex;
+  margin-top: 30px;
+  height: 80px;
+  gap: 270px;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+header .fea-works {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.fea-works p {
+  color: #000;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.get-strt p {
+  color: #120b48;
+  text-align: center;
+  font-family: " Sora", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer {
+  display: flex;
+  gap: 15%;
+  background: #120b48;
+  padding: 30px;
+  color: #ffffff;
+}
+footer .logo {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.menu,
+.about,
+.scrn-rcd {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+footer h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

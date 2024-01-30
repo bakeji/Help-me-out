@@ -2,8 +2,12 @@ import React from "react";
 
 export default function Header() {
     return(
-        <div className="header">
+        <header>
+            <div className="header-logo">
             <img src="/logo.png" alt="logo" />
+
+            </div>
+           
 
             <div className="fea-works">
                 <p>Features</p>
@@ -13,6 +17,6 @@ export default function Header() {
             <div className="get-strt">
                 <p>Get Started</p>
             </div>
-        </div>
+        </header>
     )
 }

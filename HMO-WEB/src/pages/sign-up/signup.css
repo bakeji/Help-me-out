@@ -1,0 +1,122 @@
+.signup, .login{
+    width: 90%;
+    margin: 50px auto;
+}
+.signup-txt, .log-in{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.sign p:first-child, .log-in h1{
+color: #141414;
+font-family: 'Inter', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.32px;
+}
+.join{
+color: #434343;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+margin-bottom: 20px;
+line-height:  21px;
+letter-spacing: 0.14px;
+}
+.sign button{
+    width: 80%;
+    display: flex;
+    gap: 12px;
+    height: 42px;
+    border-radius: 12px;
+justify-content: center;
+align-items: center;
+border: 1px solid #141414;
+margin-bottom: 12px;
+background: #FFF;
+}
+.line-txt{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+.line-txt hr{
+    width: 45%;
+    border: 1px solid #B9C2C8
+}
+.line-txt p{
+    color: #B9C2C8;
+font-family: "Inter", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0.14px;
+}
+ form{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    margin: auto;
+}
+
+label{
+    color: #141414;
+font-family: "Work Sans", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+form input{
+display: flex;
+padding: 16px;
+align-items: center;
+gap: 8px;
+border-radius: 12px;
+border: 1px solid  #B6B3C6;
+align-self: stretch;
+}
+form input::placeholder{
+    color: #626262;
+font-family: "Work Sans", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+form button{
+    display: flex;
+padding: 16px 20px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 8px;
+background:  #120B48;
+color: #F9F9FF;
+text-align: center;
+font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
